@@ -1,0 +1,321 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    padding: 10px;
+    gap: 40px;
+    align-items: center;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+
+
+}
+
+
+
+
+.btn {
+    display: flex;
+    color: white;
+    background-color: rgb(13, 163, 163);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.btn-container {
+    margin-left: 400px;
+}
+
+.contenedor-presentacion {
+    margin-left: 180px;
+    padding: 20px;
+    width: 66%;
+}
+
+.encabezado {
+    background-color: rgb(23, 139, 139);
+    position: relative;
+    height: 80px;
+}
+
+.icono {
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+
+.cuerpo {
+    padding: 30px 15px;
+    border: 2px solid rgb(190, 188, 188);
+}
+
+.iconos {
+    width: 10px;
+}
+
+.iconoss {
+    width: 20px;
+}
+
+.ubicacion {
+    margin-bottom: 10px;
+}
+
+.edit-profile {
+    margin-top: 10px;
+
+
+}
+
+.edit {
+    color: blue;
+}
+
+.contenedor-padre {
+    display: flex;
+    height: 600px;
+
+
+}
+
+.contenedor-izquierdo {
+
+
+    flex: 2;
+    flex-direction: column;
+
+
+
+}
+
+.contenedor-derecho {
+
+    flex-direction: column;
+    background-color: white;
+    flex: 2;
+
+
+
+
+}
+
+.Contenedor-educacion {
+    margin-left: 190px;
+
+    display: flex;
+    background-color: white;
+    padding: 5px;
+
+
+}
+
+.titulo-educacion {
+    background-color: grey;
+    font-size: medium;
+    font-family: cursive;
+    padding: 5px;
+    color: white;
+}
+
+.full {
+    color: black;
+}
+
+.fecha {
+    color: grey;
+
+}
+
+.aptitudes-M {
+    color: black;
+}
+
+.cuerpo-2 {
+    padding: 30px 40px;
+    border: 2px solid rgb(190, 188, 188);
+
+}
+
+.Contenedor-solicitud {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: cursive;
+    font-size: small;
+    width: 306px;
+
+}
+
+.titulo-conection {
+    font-size: medium;
+    padding: 3px;
+    color: white;
+    background-color: grey;
+    font-family: cursive;
+    width: 300px;
+
+}
+
+.button2 {
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    border: 3px solid rgb(204, 199, 199);
+    background-color: rgb(206, 204, 204);
+    color: white;
+    font-size: 20px;
+    width: 30px;
+
+
+}
+
+
+.icono3 {
+    display: flex;
+    width: 40px;
+
+}
+
+
+.icono4 {
+
+    width: 30px;
+}
+
+.cuerpo-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 15px;
+    border: 2px solid rgb(190, 188, 188);
+    justify-content: space-between;
+    height: 150px;
+
+}
+.nico ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nico li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.nico li img {
+    margin-right: 10px; 
+}
+
+.button3 {
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    border: 3px solid rgb(172, 170, 170);
+    background-color: rgb(143, 141, 141);
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+.button4 {
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    border: 3px solid rgb(168, 168, 168);
+    background-color: rgb(172, 170, 170);
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+
+
+}
+
+.Contenedor-conexiones {
+    
+    
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: x-small;
+    width: 306px;
+}
+
+.titulo-conexion {
+    font-size: medium;
+    padding: 3px;
+    color: white;
+    background-color: grey;
+    font-family: cursive;
+    width: 300px;
+
+}
+
+.cuerpo-4 {
+    
+    
+    align-items: center;
+    padding: 18px 15px;
+    border: 2px solid rgb(190, 188, 188);
+    justify-content: space-between;
+    height: 240px;
+
+}
+
+.nicoo ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nicoo li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.nicoo li img {
+    margin-right: 10px; 
+}
+
+.cuerpo-5{
+    border: 2px solid rgb(190, 188, 188);
+    padding: 15px;
+}
+.button5 {
+    border-radius: 50%;
+    width: 50px;
+}
+.xd{
+    color: blue ;
+    font-size: medium;
+}
